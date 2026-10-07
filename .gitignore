@@ -1,0 +1,15 @@
+# Local SQLite databases and temp data
+*.sqlite
+plugins/certificates/storage/data/*.sqlite
+!plugins/certificates/storage/data/.gitkeep
+
+# Generated certificate PDF artifacts from local runs
+plugins/certificates/storage/certificates/*
+!plugins/certificates/storage/certificates/.gitkeep
+
+# System and editor files
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
